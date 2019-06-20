@@ -1,0 +1,862 @@
+{
+    "status_code": 200,
+    "errors": [],
+    "body": {
+        "links": {
+            "previous": null,
+            "next": null
+        },
+        "count": 4,
+        "results": [{
+            "id": 119,
+            "km": 10.0,
+            "stations": [{
+                "id": 530,
+                "latitude": "19.3765259999999984",
+                "longitude": "-99.2554329999999965",
+                "order": 1,
+                "address": "En la bahía vehicular de la plaza",
+                "description": "",
+                "name": "Patio SF (Olive Garden)"
+            }, {
+                "id": 542,
+                "latitude": "19.3682880000000000",
+                "longitude": "-99.2597450000000000",
+                "order": 2,
+                "address": "En la bahía vehicular frente al Ishop",
+                "description": "",
+                "name": "Samara S."
+            }, {
+                "id": 544,
+                "latitude": "19.3575620000000000",
+                "longitude": "-99.2776110000000000",
+                "order": 3,
+                "address": "En la bahía vehicular del establecimiento",
+                "description": "",
+                "name": "Office Depot Santa Fe"
+            }, {
+                "id": 543,
+                "latitude": "19.3589570000000000",
+                "longitude": "-99.2732800000000000",
+                "order": 4,
+                "address": "Sobre prolongación Paseo de la Reforma",
+                "description": "",
+                "name": "Edificio Telefónica"
+            }, {
+                "id": 545,
+                "latitude": "19.3450550000000000",
+                "longitude": "-99.1381690000000000",
+                "order": 5,
+                "address": "Dentro de la terminal ejecutiva de ADO",
+                "description": "",
+                "name": "Ejecutiva Sur (Taxqueña)"
+            }],
+            "road_polyline": [{
+                "points": "_nguBhzx|QkBj@",
+                "order": 0
+            }, {
+                "points": "kqguBt{x|QFPdCw@^Kn@S",
+                "order": 1
+            }, {
+                "points": "mjguBnyx|Qr@`B\\r@Rd@FL`AtBJRV`@JPLRPPNNt@v@pApAfAfAr@r@j@h@LLp@p@~@|@rBdB",
+                "order": 2
+            }, {
+                "points": "ypfuB`xy|QB?B?B@DBTRLJRNHDPL\\T",
+                "order": 3
+            }, {
+                "points": "ulfuB`{y|QXQ|@{@p@g@x@m@HIhBwAb@a@`@_@^]FGHG",
+                "order": 4
+            }, {
+                "points": "e_fuBjoy|QNCD@D?D@PD",
+                "order": 5
+            }, {
+                "points": "q}euBpoy|QJj@DPFZFPJTHRHNDD",
+                "order": 6
+            }, {
+                "points": "i{euB|ty|QLPLNBF@BDF\\^d@d@`@^TPLJRRVR",
+                "order": 7
+            }, {
+                "points": "kteuB~{y|QrDpD^^XZxAfBBDBDFFDFvBfCr@h@TRFDb@X|@j@TLJFHFLJJJ^`@l@p@VX",
+                "order": 8
+            }, {
+                "points": "uzduBfuz|QJ\\l@t@NPTVnAzAv@|@DFDFFJFLHPDNHZ",
+                "order": 9
+            }, {
+                "points": "wqduBfa{|QEBC@A@CDCDCFAD?FAB?B?@@D?D@FBD@DBB@BDBDDD@DBD?F@D?FAZ`AFNFPXn@HLLVDJVb@h@v@\\d@^j@Vb@",
+                "order": 10
+            }, {
+                "points": "shduBjq{|QCFCBCF?DAD?F?J@F@@?@@@@B@@@@@BBBDBDBBBD@D?L?D?DA\\p@`AdB`@p@^l@R^PZLXFNRb@DLDJZ|@FPf@nAXn@HT",
+                "order": 11
+            }, {
+                "points": "k{cuBjh||QGLADAF?F?F@F@DDHBBBBHFFDJ@J@F?h@jAn@pAR`@N\\NVDFFHHNLLLLNJr@d@HFDDBD@H@H?J?FAHABEN",
+                "order": 12
+            }, {
+                "points": "_qcuBhy||QYVGDCBA?GDIBQF",
+                "order": 13
+            }, {
+                "points": "kscuB|z||QIEECEAECEAEAG?CAE?E?C?C?C?E?C@C?C?C?C@C?C@C?A@G@KDOHMJKLILGNENGX?T?D?F@D?DBPDNFNHLHJJJLJLFNDE`@",
+                "order": 14
+            }, {
+                "points": "cwcuBfd}|QSE",
+                "order": 15
+            }, {
+                "points": "wwcuB`d}|QRD",
+                "order": 16
+            }, {
+                "points": "cwcuBfd}|QDa@",
+                "order": 17
+            }, {
+                "points": "}vcuBdc}|QB@D@D?D@D?D?B?D@@?F??A@?@?D?DADADADADADA^UHIHKHMDMDODW@]AMAMCKCKMYCAEGEGEEGEGECAIEECEAECEAEAG?CAE?E?C?C?C?E?C@C?m@y@U_@",
+                "order": 18
+            }, {
+                "points": "ixcuBnw||QKe@CI[k@e@{@cAoBm@gAIS}@eB",
+                "order": 19
+            }, {
+                "points": "u`duBdi||QS_@e@}@Ua@O]",
+                "order": 20
+            }, {
+                "points": "ucduBfd||QIACACAAACECCO[GIIQKQIOA?A?O@",
+                "order": 21
+            }, {
+                "points": "}fduB|`||QgAyBe@aAa@u@e@aAqAqCqAoC[q@a@u@_@o@e@y@MSS[",
+                "order": 22
+            }, {
+                "points": "}vduBdf{|QAQAA?AAAACQWMWA?MWKQo@eAIMCGAEEOAK?K?K?K@K@A@GBMDML[Lc@Ro@Pk@@E@E@CDQDWVoAP{@Nu@P{@Nw@H_@BIBIHYFSHUBKBIDKFODMFMR_@Tc@BELSPYLQNSHKV[DE@CFGFEBCDELIFCJENEPEPCXEZCNAr@I\\Eb@ErC[l@MXGZG\\GFAHALALCRAd@GjCUlBOZEF?D?LAh@G`@ED?zB[xEq@bH}@~AU^ENCLAT?JAh@Ad@@ZBVBVBh@HZHZHVHXFJBPB",
+                "order": 23
+            }, {
+                "points": "khbuB|sy|QN@NAPANAHAHAJCDCZKHGHGLIn@i@f@c@hB}A`A{@\\YXUXUb@_@POVU@ARYFMDG@EBEBKFQ@G@I@K@GBY@a@F_ABi@Bk@LmCLkCDo@Bm@B_@@c@",
+                "order": 24
+            }, {
+                "points": "arauBbnx|Q?M",
+                "order": 25
+            }, {
+                "points": "arauBtmx|QFU@KB[BK@E@ITaABIBIBKBQ@WBYFi@Da@BY@M@O?WAkA@Y?W@M?WJcARmBVeCRwBTyBRoBLqADk@?I@Y?QAW?OAQAUE[CWCMGYGYESEIGQM_@Ug@c@gA{@qBKYGOIUISEQGYACEYEa@C]A]AQ@W?W?A@WBSBWFa@F]Le@L_@Vm@HONWBGLQNSV]LMDCTUVULILKRKDCLIPITKJCPIXIHCPEJCXGLAVE@?d@CJAL?XAZ?V@P@b@BLBPBTDVFH@JBd@Lh@NPDpBd@|A`@xD`AVFRDJBbCb@v@FvABt@AnAIfAOPCPCf@KFAPEXIj@Q@ALEJETIZOTMJGJGVQPOTQJMLMLMh@o@RQdAcAbDeCNID?BAF??A@??ABA@EBGBGBIBG@C@A@C@A",
+                "order": 26
+            }, {
+                "points": "gb_uBjlu|QrAu@`@Qj@U|@WREXG^GTC|@Cd@AR@`@HRBLBF@JBHBLBRFvEjBpXhGvBj@fAXdAXn@Pn@PRDvEpAfFhApC`@N@H@L?D?JCHAFCFGTWlB_Dl@aAp@kA`@o@Xc@`@m@\\k@j@{@xA_CvF{IV_@PWJMHOHOR[JUFO@KDO?M@IAI?I?GAIAMAK?G?A?CUwBGi@MiAGa@AKCICIEMGKEKm@iA{BiEOOOOQOWMy@a@qB}@UMIEIIGGQSKSIQGMk@eBWy@GQIMIKQWGGKGw@a@m@YECIGQQMW}@iBk@gAOYKOGIGEUS_C{AW[SYEQOi@Gk@Em@G_@GYK[K]Ue@KUKOQYOUCICECKAKAK?OAO?IBKBODKDKFIJUVYb@{@Xg@\\m@^q@^k@b@y@Ve@Xa@PSFGFEHEHCDAHAHAL?H@H@HBLDJDHFXPb@Vl@Vf@PNBRD`@HVBH@X?ZAb@G",
+                "order": 27
+            }, {
+                "points": "yf|tBver|Q\\?VA`@CtD_@FA|AOn@Ix@Id@G~BYdCWdBSdBSf@Gd@GZIREf@Ob@Mb@MjAc@h@St@]f@WFCTKVOTOl@a@PMDENKNKzAcAtBwA`Aw@t@m@RQLMLMFGNOJMX[\\a@Zc@HKFKNUNWVa@NYRa@Vk@Xs@d@oAPq@Ha@`@mBF]Fg@Fg@Da@f@eFJ_AD_@JeAN{AJaAHu@H{@RgBJeAFo@Hy@Hq@H}@DYLwANyANoARwBHs@Hy@XmCZ_DJeAHs@Hu@PeAN{@Jq@Ja@Nu@Pu@Pq@T{@J[DMJ]\\eA^aAVm@N]HSXq@\\o@Zo@^q@Ve@N[L[LYJWFM@CBE?AJYJWH[JYFYHYHYF[FSFa@F[F[D[BWD[D]Di@Be@BW@]B_@?_@@w@?A?S?I?w@A[AYCq@Ce@GeAGcAI}AGqAC[MyBCi@IuAE}@AOCa@C]?MAMGsAGw@KqBIsAIyAGqACYKsBAWCk@AKAK]iG[kGIqAGsAKgBC{@C}@CaAAo@As@AwA?yA@[?I?M?O?O@M?UDgB@q@DaAFoAD}@B[F}@ZqEJoAFaAJqAB[^iF@Q@OTyCFy@@WFq@NqB`@_G@OHeABYBWDs@JwABa@VkDLeB|@wLRyCBW@UNoBJyAJu@PgAF[Jg@Ps@Pm@Xw@L[Ri@Tc@b@{@`@q@\\g@t@_A~@cAp@m@^[p@e@fCiBrDiCt@i@t@g@tCsBpA}@pA_A~EkD|AeAt@i@lDcC`@YpA_At@i@~@o@`@[FCDE~AgAp@g@p@e@bAs@vCsBfAw@d@[DEJEFENGHETKl@[XMTMXOb@Yb@]xAmAn@m@b@e@p@q@",
+                "order": 28
+            }, {
+                "points": "}vutBf{c|QLU^g@V[T]DIDK@G@G\\q@NUr@kAh@aA@E`@u@h@mAZy@z@cCVw@l@gBLc@^qAj@}BZaBV}AZoBTyBP{BHmAF{ABs@@k@@cC?gAAkAAc@A]Co@Co@Ek@Eo@Ek@IeAGo@SaBQkAOeAi@uCyCePQy@Ou@EWCOyA{HY{AOy@eA}Fi@uCQ}@Ie@SgAQw@[eA]kAiAiDMa@GQEM_@mAqD}Kc@wA_B{EMc@{@oCoEcNiAmDYy@i@gB[_Aw@cCeCwH[eAi@cBi@{AIYQk@Ww@Qi@[cASm@_AwCUs@Sk@g@gBCIESKg@Mq@EOCGAE?E?E?EK_@IWg@}AKYEM",
+                "order": 29
+            }, {
+                "points": "khwtBti{{QKMEGIIAACAC?A?C@C@C@A@?@?B?B?DDJNb@FPDP@Nx@hCDLJZTr@^fAhEzMp@pBlAtDdC|H`@nA?@h@|Ar@|BPf@p@rB|@tC@B@@HXfEtMnEfN`@lAvBvGTv@Tl@Rp@Z`A|@pCZ~@Lb@HZRt@Nt@Ll@",
+                "order": 30
+            }, {
+                "points": "gtutBhi_|QKXDPBPBR@H?H?F?FAHAJ?F@F?@DVTlAnAvF",
+                "order": 31
+            }],
+            "schedule": {
+                "PM": [{
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 542,
+                        "departure_time": "08:35:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 530,
+                        "departure_time": "08:30:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 543,
+                        "departure_time": "08:50:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 544,
+                        "departure_time": "08:45:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 545,
+                        "departure_time": "08:30:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "08:30:00 PM",
+                    "arrival_time": "09:30:00 PM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 542,
+                        "departure_time": "06:35:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 530,
+                        "departure_time": "06:30:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 543,
+                        "departure_time": "06:50:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 544,
+                        "departure_time": "06:45:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 545,
+                        "departure_time": "06:30:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "06:30:00 PM",
+                    "arrival_time": "08:00:00 PM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 542,
+                        "departure_time": "05:40:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 530,
+                        "departure_time": "05:35:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 543,
+                        "departure_time": "05:55:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 544,
+                        "departure_time": "05:50:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 545,
+                        "departure_time": "05:35:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "05:35:00 PM",
+                    "arrival_time": "06:30:00 PM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 542,
+                        "departure_time": "03:35:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 530,
+                        "departure_time": "03:30:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 543,
+                        "departure_time": "03:50:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 544,
+                        "departure_time": "03:45:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 545,
+                        "departure_time": "03:30:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "03:30:00 PM",
+                    "arrival_time": "05:00:00 PM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 542,
+                        "departure_time": "02:35:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 530,
+                        "departure_time": "02:30:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 543,
+                        "departure_time": "02:50:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 544,
+                        "departure_time": "02:45:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 545,
+                        "departure_time": "02:30:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "02:30:00 PM",
+                    "arrival_time": "03:30:00 PM"
+                }, {
+                    "availability": [1, 2, 3, 4],
+                    "timing": [{
+                        "id": 542,
+                        "departure_time": "09:35:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 530,
+                        "departure_time": "09:30:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 543,
+                        "departure_time": "09:50:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 544,
+                        "departure_time": "09:45:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 545,
+                        "departure_time": "09:30:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "09:30:00 PM",
+                    "arrival_time": "10:30:00 PM"
+                }],
+                "AM": []
+            },
+            "name": "Sta Fe - Taxqueña"
+        }, {
+            "id": 77,
+            "km": 10.0,
+            "stations": [{
+                "id": 253,
+                "latitude": "19.5473975000000000",
+                "longitude": "-99.2106112000000000",
+                "order": 1,
+                "address": "En la bahía vehicular de la plaza",
+                "description": "",
+                "name": "City Shops"
+            }, {
+                "id": 254,
+                "latitude": "19.5247350000000000",
+                "longitude": "-99.2264690000000000",
+                "order": 2,
+                "address": "En la bahía vehicular de la plaza",
+                "description": "",
+                "name": "Mundo E"
+            }, {
+                "id": 255,
+                "latitude": "19.5064370000000000",
+                "longitude": "-99.2371400000000000",
+                "order": 3,
+                "address": "En la bahía vehicular",
+                "description": "",
+                "name": "Papa Bill's"
+            }, {
+                "id": 257,
+                "latitude": "19.3575620000000000",
+                "longitude": "-99.2776110000000000",
+                "order": 4,
+                "address": "En la bahía vehicular del establecimiento",
+                "description": "",
+                "name": "Office Depot Santa Fe"
+            }, {
+                "id": 258,
+                "latitude": "19.3589570000000000",
+                "longitude": "-99.2732800000000000",
+                "order": 5,
+                "address": "Sobre prolongación Paseo de la Reforma",
+                "description": "",
+                "name": "Edificio Telefónica"
+            }, {
+                "id": 259,
+                "latitude": "19.3682880000000000",
+                "longitude": "-99.2597450000000000",
+                "order": 6,
+                "address": "En la bahía vehicular frente al Ishop",
+                "description": "",
+                "name": "Samara S."
+            }, {
+                "id": 260,
+                "latitude": "19.3655410000000000",
+                "longitude": "-99.2638470000000000",
+                "order": 7,
+                "address": "En la bahía vehicular de la plaza frente al Guadiana",
+                "description": "",
+                "name": "Garden Santa Fe"
+            }, {
+                "id": 261,
+                "latitude": "19.3765259999999984",
+                "longitude": "-99.2554329999999965",
+                "order": 8,
+                "address": "En la bahía vehicular de la plaza",
+                "description": "",
+                "name": "Patio SF (Olive Garden)"
+            }],
+            "road_polyline": [],
+            "schedule": {
+                "PM": [],
+                "AM": [{
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 260,
+                        "departure_time": "06:15:00 AM",
+                        "order": 7
+                    }, {
+                        "id": 253,
+                        "departure_time": "06:10:00 AM",
+                        "order": 1
+                    }, {
+                        "id": 257,
+                        "departure_time": "06:30:00 AM",
+                        "order": 4
+                    }, {
+                        "id": 254,
+                        "departure_time": "06:20:00 AM",
+                        "order": 2
+                    }, {
+                        "id": 255,
+                        "departure_time": "06:30:00 AM",
+                        "order": 3
+                    }, {
+                        "id": 259,
+                        "departure_time": "06:20:00 AM",
+                        "order": 6
+                    }, {
+                        "id": 258,
+                        "departure_time": "06:25:00 AM",
+                        "order": 5
+                    }, {
+                        "id": 261,
+                        "departure_time": "06:10:00 AM",
+                        "order": 8
+                    }],
+                    "departure_time": "06:10:00 AM",
+                    "arrival_time": "07:30:00 AM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 260,
+                        "departure_time": "06:55:00 AM",
+                        "order": 7
+                    }, {
+                        "id": 253,
+                        "departure_time": "06:50:00 AM",
+                        "order": 1
+                    }, {
+                        "id": 257,
+                        "departure_time": "07:10:00 AM",
+                        "order": 4
+                    }, {
+                        "id": 254,
+                        "departure_time": "07:00:00 AM",
+                        "order": 2
+                    }, {
+                        "id": 255,
+                        "departure_time": "07:10:00 AM",
+                        "order": 3
+                    }, {
+                        "id": 259,
+                        "departure_time": "07:00:00 AM",
+                        "order": 6
+                    }, {
+                        "id": 258,
+                        "departure_time": "07:05:00 AM",
+                        "order": 5
+                    }, {
+                        "id": 261,
+                        "departure_time": "06:50:00 AM",
+                        "order": 8
+                    }],
+                    "departure_time": "06:50:00 AM",
+                    "arrival_time": "08:30:00 AM"
+                }]
+            },
+            "name": "Zona Norte - Santa Fe"
+        }, {
+            "id": 109,
+            "km": 10.0,
+            "stations": [{
+                "id": 474,
+                "latitude": "19.3575620000000000",
+                "longitude": "-99.2776110000000000",
+                "order": 1,
+                "address": "En la bahía vehicular del establecimiento",
+                "description": "",
+                "name": "Office Depot Santa Fe"
+            }, {
+                "id": 475,
+                "latitude": "19.3589570000000000",
+                "longitude": "-99.2732800000000000",
+                "order": 2,
+                "address": "Sobre prolongación Paseo de la Reforma",
+                "description": "",
+                "name": "Edificio Telefónica"
+            }, {
+                "id": 476,
+                "latitude": "19.3682880000000000",
+                "longitude": "-99.2597450000000000",
+                "order": 3,
+                "address": "En la bahía vehicular frente al Ishop",
+                "description": "",
+                "name": "Samara S."
+            }, {
+                "id": 477,
+                "latitude": "19.3655410000000000",
+                "longitude": "-99.2638470000000000",
+                "order": 4,
+                "address": "En la bahía vehicular de la plaza frente al Guadiana",
+                "description": "",
+                "name": "Garden Santa Fe"
+            }, {
+                "id": 478,
+                "latitude": "19.3765259999999984",
+                "longitude": "-99.2554329999999965",
+                "order": 5,
+                "address": "En la bahía vehicular de la plaza",
+                "description": "",
+                "name": "Patio SF (Olive Garden)"
+            }, {
+                "id": 479,
+                "latitude": "19.5507130719206756",
+                "longitude": "-99.2725524870330673",
+                "order": 6,
+                "address": "En la parada de autobuses de la plaza",
+                "description": "",
+                "name": "Galerías Atizapán"
+            }],
+            "road_polyline": [],
+            "schedule": {
+                "PM": [{
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 479,
+                        "departure_time": "05:30:00 PM",
+                        "order": 6
+                    }, {
+                        "id": 475,
+                        "departure_time": "05:35:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 476,
+                        "departure_time": "05:45:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 477,
+                        "departure_time": "05:50:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 474,
+                        "departure_time": "05:30:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 478,
+                        "departure_time": "05:55:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "05:30:00 PM",
+                    "arrival_time": "06:30:00 PM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 479,
+                        "departure_time": "07:30:00 PM",
+                        "order": 6
+                    }, {
+                        "id": 475,
+                        "departure_time": "07:35:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 476,
+                        "departure_time": "07:45:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 477,
+                        "departure_time": "07:50:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 474,
+                        "departure_time": "07:30:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 478,
+                        "departure_time": "07:55:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "07:30:00 PM",
+                    "arrival_time": "08:30:00 PM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 479,
+                        "departure_time": "06:05:00 PM",
+                        "order": 6
+                    }, {
+                        "id": 475,
+                        "departure_time": "06:10:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 476,
+                        "departure_time": "06:20:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 477,
+                        "departure_time": "06:25:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 474,
+                        "departure_time": "06:05:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 478,
+                        "departure_time": "06:30:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "06:05:00 PM",
+                    "arrival_time": "07:05:00 PM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 479,
+                        "departure_time": "08:00:00 PM",
+                        "order": 6
+                    }, {
+                        "id": 475,
+                        "departure_time": "08:05:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 476,
+                        "departure_time": "08:15:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 477,
+                        "departure_time": "08:20:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 474,
+                        "departure_time": "08:00:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 478,
+                        "departure_time": "08:25:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "08:00:00 PM",
+                    "arrival_time": "09:00:00 PM"
+                }, {
+                    "availability": [5],
+                    "timing": [{
+                        "id": 479,
+                        "departure_time": "02:25:00 PM",
+                        "order": 6
+                    }, {
+                        "id": 475,
+                        "departure_time": "02:30:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 476,
+                        "departure_time": "02:40:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 477,
+                        "departure_time": "02:45:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 474,
+                        "departure_time": "02:25:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 478,
+                        "departure_time": "02:50:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "02:25:00 PM",
+                    "arrival_time": "03:30:00 PM"
+                }, {
+                    "availability": [5],
+                    "timing": [{
+                        "id": 479,
+                        "departure_time": "02:50:00 PM",
+                        "order": 6
+                    }, {
+                        "id": 475,
+                        "departure_time": "02:55:00 PM",
+                        "order": 2
+                    }, {
+                        "id": 476,
+                        "departure_time": "03:05:00 PM",
+                        "order": 3
+                    }, {
+                        "id": 477,
+                        "departure_time": "03:10:00 PM",
+                        "order": 4
+                    }, {
+                        "id": 474,
+                        "departure_time": "02:50:00 PM",
+                        "order": 1
+                    }, {
+                        "id": 478,
+                        "departure_time": "03:15:00 PM",
+                        "order": 5
+                    }],
+                    "departure_time": "02:50:00 PM",
+                    "arrival_time": "03:50:00 PM"
+                }],
+                "AM": []
+            },
+            "name": "Santa Fe- Galerias"
+        }, {
+            "id": 108,
+            "km": 10.0,
+            "stations": [{
+                "id": 467,
+                "latitude": "19.5507130719206756",
+                "longitude": "-99.2725524870330673",
+                "order": 1,
+                "address": "En la parada de autobuses de la plaza",
+                "description": "",
+                "name": "Galerías Atizapán"
+            }, {
+                "id": 468,
+                "latitude": "19.3575620000000000",
+                "longitude": "-99.2776110000000000",
+                "order": 2,
+                "address": "En la bahía vehicular del establecimiento",
+                "description": "",
+                "name": "Office Depot Santa Fe"
+            }, {
+                "id": 469,
+                "latitude": "19.3589570000000000",
+                "longitude": "-99.2732800000000000",
+                "order": 3,
+                "address": "Sobre prolongación Paseo de la Reforma",
+                "description": "",
+                "name": "Edificio Telefónica"
+            }, {
+                "id": 470,
+                "latitude": "19.3682880000000000",
+                "longitude": "-99.2597450000000000",
+                "order": 4,
+                "address": "En la bahía vehicular frente al Ishop",
+                "description": "",
+                "name": "Samara S."
+            }, {
+                "id": 471,
+                "latitude": "19.3655410000000000",
+                "longitude": "-99.2638470000000000",
+                "order": 5,
+                "address": "En la bahía vehicular de la plaza frente al Guadiana",
+                "description": "",
+                "name": "Garden Santa Fe"
+            }, {
+                "id": 472,
+                "latitude": "19.3765259999999984",
+                "longitude": "-99.2554329999999965",
+                "order": 6,
+                "address": "En la bahía vehicular de la plaza",
+                "description": "",
+                "name": "Patio SF (Olive Garden)"
+            }],
+            "road_polyline": [],
+            "schedule": {
+                "PM": [],
+                "AM": [{
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 468,
+                        "departure_time": "07:20:00 AM",
+                        "order": 2
+                    }, {
+                        "id": 469,
+                        "departure_time": "07:15:00 AM",
+                        "order": 3
+                    }, {
+                        "id": 470,
+                        "departure_time": "07:10:00 AM",
+                        "order": 4
+                    }, {
+                        "id": 471,
+                        "departure_time": "07:05:00 AM",
+                        "order": 5
+                    }, {
+                        "id": 472,
+                        "departure_time": "07:00:00 AM",
+                        "order": 6
+                    }, {
+                        "id": 467,
+                        "departure_time": "07:00:00 AM",
+                        "order": 1
+                    }],
+                    "departure_time": "07:00:00 AM",
+                    "arrival_time": "08:00:00 AM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 468,
+                        "departure_time": "08:50:00 AM",
+                        "order": 2
+                    }, {
+                        "id": 469,
+                        "departure_time": "08:45:00 AM",
+                        "order": 3
+                    }, {
+                        "id": 470,
+                        "departure_time": "08:40:00 AM",
+                        "order": 4
+                    }, {
+                        "id": 471,
+                        "departure_time": "08:35:00 AM",
+                        "order": 5
+                    }, {
+                        "id": 472,
+                        "departure_time": "08:30:00 AM",
+                        "order": 6
+                    }, {
+                        "id": 467,
+                        "departure_time": "08:30:00 AM",
+                        "order": 1
+                    }],
+                    "departure_time": "08:30:00 AM",
+                    "arrival_time": "09:30:00 AM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 468,
+                        "departure_time": "08:20:00 AM",
+                        "order": 2
+                    }, {
+                        "id": 469,
+                        "departure_time": "08:15:00 AM",
+                        "order": 3
+                    }, {
+                        "id": 470,
+                        "departure_time": "08:10:00 AM",
+                        "order": 4
+                    }, {
+                        "id": 471,
+                        "departure_time": "08:05:00 AM",
+                        "order": 5
+                    }, {
+                        "id": 472,
+                        "departure_time": "08:00:00 AM",
+                        "order": 6
+                    }, {
+                        "id": 467,
+                        "departure_time": "08:00:00 AM",
+                        "order": 1
+                    }],
+                    "departure_time": "08:00:00 AM",
+                    "arrival_time": "09:00:00 AM"
+                }, {
+                    "availability": [1, 2, 3, 4, 5],
+                    "timing": [{
+                        "id": 468,
+                        "departure_time": "06:50:00 AM",
+                        "order": 2
+                    }, {
+                        "id": 469,
+                        "departure_time": "06:45:00 AM",
+                        "order": 3
+                    }, {
+                        "id": 470,
+                        "departure_time": "06:40:00 AM",
+                        "order": 4
+                    }, {
+                        "id": 471,
+                        "departure_time": "06:35:00 AM",
+                        "order": 5
+                    }, {
+                        "id": 472,
+                        "departure_time": "06:30:00 AM",
+                        "order": 6
+                    }, {
+                        "id": 467,
+                        "departure_time": "06:30:00 AM",
+                        "order": 1
+                    }],
+                    "departure_time": "06:30:00 AM",
+                    "arrival_time": "07:30:00 AM"
+                }]
+            },
+            "name": "Galerias-Santa Fe"
+        }]
+    }
+}
