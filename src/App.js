@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-//import classNames from 'classnames';
+import classNames from 'classnames';
 //sub components
 import NavBar from './components/NavBar';
 import RoutesCard from './components/RoutesCard';
@@ -17,10 +17,6 @@ const styles = theme => ({
     height: '100vh',
     display: 'block', // Fix IE 11 issue.
   },
-  typography: {
-    // Use the system font instead of the default Roboto font.
-    fontFamily: "Helvetica Neue",
-  }, 
   root: {
     flexGrow: 1,
   },
@@ -33,12 +29,18 @@ const styles = theme => ({
     fontFamily: "Helvetica Neue",
     fontSize: '30px',
     fontWeight: 'bold',
-    fontStyle: 'normal',
-    fontStretch: 'normal',
+    
     lineHeight: 1.23,
     letterSpacing: 'normal',
-    color: '#252c41',
+    
     flexGrow: 1,
+  },
+  generalStyle: {
+    fontFamily: "Helvetica Neue",
+    fontStyle: 'normal',
+    fontStretch: 'normal',
+    letterSpacing: 'normal',
+    color: '#252c41',
   },
   paragraph: {
     marginTop: '0',
@@ -46,42 +48,52 @@ const styles = theme => ({
     width: '95%',
     fontSize: '16px',
     fontWeight: 300,
-    fontStyle: 'normal',
-    fontStretch: 'normal',
     lineHeight: 1.2,
-    letterSpacing: 'normal',
     textAlign: 'left',
-    color: '#252c41',
   }
 });
 
 class App extends React.Component {
-  showSchedule = (event) => {
-    console.log(event.target.dataset.id)
+  constructor() {
+    super();
+    this.state = {
+      schedule: '',
+      isSchedule: false,
+    };
+  }
+  showSchedule = (obj) => {
+    this.setState({
+      schedule: obj.schedule,
+      isSchedule: true,
+    });
   }
   render() {
     const { classes } = this.props;
     return(
       <div className={classes.main}>
         <Grid
+        container
         alignItems="center"
         justify="center"
-        spacing={0}
-        direction="column">
+        spacing={0}>
         
         <NavBar/>
         <Grid item sm={12}>
-        <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" className={classNames(classes.title, classes.generalStyle)}>
             Rutas en la CDMX
-        </Typography>
+          </Typography>
         
-        <Typography className={classes.paragraph}>
+          <Typography className={classNames(classes.paragraph, classes.generalStyle)}>
             Checa cual es la que más te conviene para llegar a Santa Fe. Contamos con muchos horarios para llevarte a tiempo.
-        </Typography>
-        <RoutesCard api={api}
-                    showSchedule={this.showSchedule} />
+          </Typography>
+          <RoutesCard api={api}
+                    showSchedule={this.showSchedule}
+                    schedule={this.state.schedule}
+                    isSchedule={this.state.isSchedule}/>
+          <MapContainer />
         
         <Footer />
+        
         </Grid>
         </Grid>
       </div>
