@@ -9,14 +9,14 @@ import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
   AppBar: {
-    width: '18%',
+    width: '20%',
     color: '#fff',
     backgroundColor: '#f1404b',
     position: 'absolute',
     right: '0px',
   },
   logo: {
-      width: '35%',
+      width: '30%',
       objectFit: 'contain',
       padding: '1em',
   },

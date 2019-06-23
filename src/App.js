@@ -44,7 +44,7 @@ const styles = theme => ({
     marginTop: '0',
     margin: '1rem',
     width: '95%',
-    fontSize: '1em',
+    fontSize: '16px',
     fontWeight: 300,
     fontStyle: 'normal',
     fontStretch: 'normal',
