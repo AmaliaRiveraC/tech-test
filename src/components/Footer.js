@@ -1,10 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Icon from '@material-ui/core/Icon';
 import mail from '../assets/envelope.svg';
 
 const useStyles = makeStyles(theme => ({
@@ -64,11 +62,6 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     height: '94px',
     backgroundColor: '#303850',  
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
   },
 }));
 

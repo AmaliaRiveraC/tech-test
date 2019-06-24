@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
     marginBottom: '-5%',
   },
   root: {
-    width: '27%',
+    width: '35%',
     padding: theme.spacing(3, 2),
     zIndex: '9999',
     position: 'absolute',
@@ -55,7 +55,7 @@ const useStyles = makeStyles(theme => ({
       color: '#252c41',
   },
   right: {
-    right: '20%',
+    right: '15%',
     backgroundColor: '#f8f8f8',
   }
 }));
@@ -64,11 +64,11 @@ const SimpleCard = (props) => {
   const { showSchedule, api, schedule, isTrue} = props;
   const classes = useStyles();
   const objRoutes = api['body']['results'];
-  const routes = objRoutes.map((obj, index) => {
+  const routes = objRoutes.map((obj) => {
       return(
-        <Grid item xs={12}>
+        <Grid key={obj.id} item xs={12}>
           <img src={grupo3}/>
-          <p className={classes.img} key={obj.id} data-id={obj.id} onClick={() => {showSchedule(obj)}}> 
+          <p className={classes.img}  data-id={obj.id} onClick={() => {showSchedule(obj)}}> 
               {obj.name}
           </p>
         </Grid>
@@ -79,21 +79,27 @@ const SimpleCard = (props) => {
   let departureTimeAM = null;
   let templateAM = undefined;
   let templatePM = undefined;
+
   if(schedule[schedules[0]] !== []) {
     departureTimePM = schedule[schedules[0]];
   }
+
   if(schedule[schedules[1]] !== []) {
     departureTimeAM = schedule[schedules[1]];
   }
  
   if(departureTimeAM !== undefined && departureTimeAM !== null) {
-    templateAM = departureTimeAM.map((item) => {
-      return(<div><p>Llegar {item.departure_time}</p></div>)
+    templateAM = departureTimeAM.map((item, index) => {
+      let array = item.departure_time.split(' ');
+      let hour = array[0].split(':', 2).join(':');
+      return(<div key={`am${index}`}><p>Llegar {`${hour} ${array[1]}`}</p></div>)
     });  
   }
   if(departureTimePM !== undefined && departureTimePM !== null) {
-    templatePM = departureTimePM.map((item) => {
-      return(<div><p>Salir {item.departure_time}</p></div>)
+    templatePM = departureTimePM.map((item, index) => {
+      let array = item.departure_time.split(' ');
+      let hour = array[0].split(':', 2).join(':');
+      return(<div key={`pm${index}`}><p>Salir {`${hour} ${array[1]}`}</p></div>)
     });  
   }
  
