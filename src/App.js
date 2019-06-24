@@ -59,12 +59,22 @@ class App extends React.Component {
     this.state = {
       schedule: '',
       isSchedule: false,
+      originLatitude: 0,
+      originLongitude: 0,
+      destinationLatitude: 0,
+      destintationLongitude: 0,
+      stations: [],
     };
   }
   showSchedule = (obj) => {
     this.setState({
       schedule: obj.schedule,
       isSchedule: true,
+      stations: obj.stations,
+      originLatitude: obj.stations[0].latitude,
+      originLongitude: obj.stations[0].longitude,
+      destinationLatitude: obj.stations[obj.stations.length - 1].latitude,
+      destintationLongitude: obj.stations[obj.stations.length - 1].longitude
     });
   }
   render() {
@@ -90,7 +100,10 @@ class App extends React.Component {
                     showSchedule={this.showSchedule}
                     schedule={this.state.schedule}
                     isSchedule={this.state.isSchedule}/>
-          <MapContainer />
+          <MapContainer originLatitude={this.state.originLatitude}
+                        originLongitude={this.state.originLongitude}
+                        destinationLatitude={this.state.destinationLatitude}
+                        destintationLongitude={this.state.destintationLongitude} />
         
         <Footer />
         
