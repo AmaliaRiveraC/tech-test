@@ -60,22 +60,20 @@ class App extends React.Component {
     super();
     this.state = {
       schedule: '',
-      isSchedule: false,
+      isTrue: false,
       originLatitude: 19.3765259999999984,
       originLongitude: -99.2554329999999965,
       destinationLatitude: 19.3450550000000000,
       destintationLongitude: -99.1381690000000000,
       stations: null,
-      isStations: false,
     };
   }
   
   showSchedule = (obj) => {
     this.setState({
       schedule: obj.schedule,
-      isSchedule: true,
       stations: obj.stations,
-      isStations: true,
+      isTrue: true,
       originLatitude: obj.stations[0].latitude,
       originLongitude: obj.stations[0].longitude,
       destinationLatitude: obj.stations[obj.stations.length - 1].latitude,
@@ -104,13 +102,13 @@ class App extends React.Component {
           <RoutesCard api={api}
                     showSchedule={this.showSchedule}
                     schedule={this.state.schedule}
-                    isSchedule={this.state.isSchedule}/>
+                    isTrue={this.state.isTrue}/>
           <MapContainer originLatitude={this.state.originLatitude}
                         originLongitude={this.state.originLongitude}
                         destinationLatitude={this.state.destinationLatitude}
                         destintationLongitude={this.state.destintationLongitude}
                         stations={this.state.stations}
-                        isStations={this.state.isStations}
+                        isStations={this.state.isTrue}
                         />
         
         <Footer />
