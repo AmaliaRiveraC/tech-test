@@ -1,3 +1,5 @@
+/*global google*/
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
@@ -8,7 +10,7 @@ import MapContainer from './components/Map';
 import Footer from './components/Footer';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import { withStyles, createMuiTheme, makeStyles, } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import api from './api/test.json';
 
 const styles = theme => ({
@@ -59,13 +61,14 @@ class App extends React.Component {
     this.state = {
       schedule: '',
       isSchedule: false,
-      originLatitude: 0,
-      originLongitude: 0,
-      destinationLatitude: 0,
-      destintationLongitude: 0,
+      originLatitude: 19.3765259999999984,
+      originLongitude: -99.2554329999999965,
+      destinationLatitude: 19.3450550000000000,
+      destintationLongitude: -99.1381690000000000,
       stations: [],
     };
   }
+  
   showSchedule = (obj) => {
     this.setState({
       schedule: obj.schedule,
@@ -103,7 +106,8 @@ class App extends React.Component {
           <MapContainer originLatitude={this.state.originLatitude}
                         originLongitude={this.state.originLongitude}
                         destinationLatitude={this.state.destinationLatitude}
-                        destintationLongitude={this.state.destintationLongitude} />
+                        destintationLongitude={this.state.destintationLongitude}
+                        />
         
         <Footer />
         
