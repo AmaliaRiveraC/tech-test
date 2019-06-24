@@ -65,7 +65,8 @@ class App extends React.Component {
       originLongitude: -99.2554329999999965,
       destinationLatitude: 19.3450550000000000,
       destintationLongitude: -99.1381690000000000,
-      stations: [],
+      stations: null,
+      isStations: false,
     };
   }
   
@@ -74,6 +75,7 @@ class App extends React.Component {
       schedule: obj.schedule,
       isSchedule: true,
       stations: obj.stations,
+      isStations: true,
       originLatitude: obj.stations[0].latitude,
       originLongitude: obj.stations[0].longitude,
       destinationLatitude: obj.stations[obj.stations.length - 1].latitude,
@@ -107,6 +109,8 @@ class App extends React.Component {
                         originLongitude={this.state.originLongitude}
                         destinationLatitude={this.state.destinationLatitude}
                         destintationLongitude={this.state.destintationLongitude}
+                        stations={this.state.stations}
+                        isStations={this.state.isStations}
                         />
         
         <Footer />

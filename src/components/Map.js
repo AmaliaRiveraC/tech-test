@@ -6,7 +6,7 @@ import {
   withScriptjs,
   withGoogleMap,
   GoogleMap,
-  Marker,
+  Marker ,
   DirectionsRenderer,
 } from "react-google-maps";
 
@@ -71,6 +71,18 @@ const MapWithADirectionsRenderer = compose(
   })
 )(props => (
   <GoogleMap defaultZoom={10} defaultCenter={{ lat: 19.37652599999999847, lng: -99.2554329999999965 }}>
+    {props.isStations ? props.stations.map(marker => {
+      let lat = Number(marker.latitude);
+      let lng =  Number(marker.longitude);
+      return(
+        <Marker
+      position={{ lat, lng }}
+      key={marker.id}
+    />
+      );
+    }
+    
+) : null} 
     {props.directions && <DirectionsRenderer directions={props.directions} />}
   </GoogleMap>
 ));

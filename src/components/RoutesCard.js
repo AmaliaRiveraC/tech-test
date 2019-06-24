@@ -49,7 +49,7 @@ const SimpleCard = (props) => {
  
   if(departureTimeAM !== undefined && departureTimeAM !== null) {
     templateAM = departureTimeAM.map((item) => {
-      return(<div><p>Llegar {item.arrival_time}</p></div>)
+      return(<div><p>Llegar {item.departure_time}</p></div>)
     });  
   }
   if(departureTimePM !== undefined && departureTimePM !== null) {
