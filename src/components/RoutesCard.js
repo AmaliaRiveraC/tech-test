@@ -4,6 +4,9 @@ import classNames from 'classnames';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import grupo1 from '../assets/Grupo1.svg';
+import grupo from '../assets/Grupo.svg';
+import grupo3 from '../assets/Grupo3.svg';
+
 
 
 const useStyles = makeStyles(theme => ({
@@ -27,7 +30,7 @@ const useStyles = makeStyles(theme => ({
   container:  {
     width: '100%',
     height: '60vh',
-    margin: '10%',
+    paddingLeft: '10%',
     marginRight: '0',
     marginBottom: '-5%',
   },
@@ -64,7 +67,7 @@ const SimpleCard = (props) => {
   const routes = objRoutes.map((obj, index) => {
       return(
         <Grid item xs={12}>
-          <img src={grupo1}/>
+          <img src={grupo3}/>
           <p className={classes.img} key={obj.id} data-id={obj.id} onClick={() => {showSchedule(obj)}}> 
               {obj.name}
           </p>

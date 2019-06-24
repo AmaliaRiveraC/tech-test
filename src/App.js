@@ -1,6 +1,5 @@
-/*global google*/
-
 import React from 'react';
+import './App.css';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 //sub components

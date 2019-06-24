@@ -76,6 +76,10 @@ const MapWithADirectionsRenderer = compose(
       let lng =  Number(marker.longitude);
       return(
         <Marker
+        icon={{
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 5
+        }} 
       position={{ lat, lng }}
       key={marker.id}
     />
