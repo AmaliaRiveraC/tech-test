@@ -13,6 +13,11 @@ const useStyles = makeStyles(theme => ({
   card: {
     minWidth: 275,
   },
+  hover: {
+    '&:hover': {
+      background: 'blue'
+    }
+  },
   bullet: {
     display: 'inline-block',
     margin: '0 2px',
@@ -57,6 +62,9 @@ const useStyles = makeStyles(theme => ({
   right: {
     right: '15%',
     backgroundColor: '#f8f8f8',
+  },
+  hover: {
+    blackgroundColor: '#f8f8f8',
   }
 }));
 
@@ -65,12 +73,18 @@ const SimpleCard = (props) => {
   const classes = useStyles();
   const objRoutes = api['body']['results'];
   const routes = objRoutes.map((obj) => {
+    let arrayRoutes = obj.name.split('-');
       return(
         <Grid key={obj.id} item xs={12}>
+          <div className={classes.hover}>
           <img src={grupo3}/>
           <p className={classes.img}  data-id={obj.id} onClick={() => {showSchedule(obj)}}> 
-              {obj.name}
+              {arrayRoutes[0]}
           </p>
+          <p className={classes.img}  data-id={obj.id} onClick={() => {showSchedule(obj)}}> 
+              {arrayRoutes[1]}
+          </p>
+          </div>
         </Grid>
       )
   });
@@ -92,14 +106,14 @@ const SimpleCard = (props) => {
     templateAM = departureTimeAM.map((item, index) => {
       let array = item.departure_time.split(' ');
       let hour = array[0].split(':', 2).join(':');
-      return(<div key={`am${index}`}><p>Llegar {`${hour} ${array[1]}`}</p></div>)
+      return(<div key={`am${index}`}><p>Llegar {`${hour} ${array[1].toLowerCase()}`}</p></div>)
     });  
   }
   if(departureTimePM !== undefined && departureTimePM !== null) {
     templatePM = departureTimePM.map((item, index) => {
       let array = item.departure_time.split(' ');
       let hour = array[0].split(':', 2).join(':');
-      return(<div key={`pm${index}`}><p>Salir {`${hour} ${array[1]}`}</p></div>)
+      return(<div key={`pm${index}`}><p>Salir {`${hour} ${array[1].toLowerCase()}`}</p></div>)
     });  
   }
  
