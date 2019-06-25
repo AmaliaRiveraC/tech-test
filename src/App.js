@@ -1,3 +1,4 @@
+/*global google*/
 import React from 'react';
 import './App.css';
 import PropTypes from 'prop-types';
@@ -65,9 +66,32 @@ class App extends React.Component {
       destinationLatitude: 19.3450550000000000,
       destintationLongitude: -99.1381690000000000,
       stations: null,
+      isOver: false,
+      directions: null,
     };
   }
   
+  
+directions = (origin, destination, component) => {
+  const DirectionsService = new google.maps.DirectionsService();
+  DirectionsService.route(
+    {
+      origin: new google.maps.LatLng(origin.lat, origin.lng),
+      destination: new google.maps.LatLng(destination.lat, destination.lng),
+      travelMode: google.maps.TravelMode.DRIVING
+    },
+    (result, status) => {
+        if (status === google.maps.DirectionsStatus.OK) {
+          component.setState({
+            directions: result
+          });
+        } else {
+          console.error(`error fetching directions ${JSON.stringify(result)}`);
+        }
+      }
+    )
+  }; 
+ 
   showSchedule = (obj) => {
     this.setState({
       schedule: obj.schedule,
@@ -78,7 +102,8 @@ class App extends React.Component {
       destinationLatitude: obj.stations[obj.stations.length - 1].latitude,
       destintationLongitude: obj.stations[obj.stations.length - 1].longitude
     });
-  }
+  };
+  
   render() {
     const { classes } = this.props;
     return(
@@ -108,6 +133,9 @@ class App extends React.Component {
                         destintationLongitude={this.state.destintationLongitude}
                         stations={this.state.stations}
                         isStations={this.state.isTrue}
+                        isOver={this.state.isOver}
+                        handleLabels={this.handleLabels}
+                        directions={this.directions}
                         />
         
         <Footer />
